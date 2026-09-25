@@ -256,6 +256,5 @@ the views of the U.S. Department of Energy or the United States Government.
 
 ## Authors
 
-- **Alireza Kianimoqadam**, Department of Mechanical and Aerospace Engineering, University of Dayton,
-  [ORCID 0000-0003-0000-8080](https://orcid.org/0000-0003-0000-8080)
+- **Alireza Kianimoqadam**, [ORCID 0000-0003-0000-8080](https://orcid.org/0000-0003-0000-8080)
 - **Andrew J. Schrader**, Department of Mechanical and Aerospace Engineering, University of Dayton
