@@ -44,8 +44,8 @@ $d_{p,f} \le 0$ for all faces. FBSI replaces each hard test with a **soft** one.
 For a particle of radius $R_p$, define the transition coordinate and the face weight
 
 ```math
-\xi_{p,f} = \operatorname{clamp}\!\left(-\frac{d_{p,f}}{R_p},\,-1,\,1\right), \qquad
-t_{p,f} = \tfrac12\,(\xi_{p,f} + 1), \qquad
+\xi_{p,f} = \mathrm{clamp}\left(-\frac{d_{p,f}}{R_p},\,-1,\,1\right), \qquad
+t_{p,f} = \frac{1}{2}\,(\xi_{p,f} + 1), \qquad
 W_{p,f} = t_{p,f}^2\,(3 - 2\,t_{p,f})
 ```
 
@@ -134,6 +134,6 @@ of the particle outside the domain, so no wall correction is needed. See
 
 ## Sign convention note
 
-The paper and this repository use **outward** normals with $\xi = \operatorname{clamp}(-d/R_p, -1, 1)$.
-The original research scripts used **inward** normals with $\xi = \operatorname{clamp}(+d/R_p, -1, 1)$.
+The paper and this repository use **outward** normals with $\xi = \mathrm{clamp}(-d/R_p, -1, 1)$.
+The original research scripts used **inward** normals with $\xi = \mathrm{clamp}(+d/R_p, -1, 1)$.
 The two are identical.

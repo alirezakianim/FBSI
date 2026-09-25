@@ -46,10 +46,10 @@ normal $\vec n_f$, face centroid $\vec x_f$):
 ```math
 \begin{aligned}
 d_{p,f} &= \vec n_f \cdot (\vec x_p - \vec x_f) && \text{signed distance to face } f\\
-t_{p,f} &= \tfrac12\left[\operatorname{clamp}(-d_{p,f}/R_p,\,-1,\,1) + 1\right] && \text{position inside the band } \pm R_p\\
+t_{p,f} &= \frac{1}{2}\left[\mathrm{clamp}(-d_{p,f}/R_p,\,-1,\,1) + 1\right] && \text{position inside the band } \pm R_p\\
 W_{p,f} &= t_{p,f}^2\,(3 - 2t_{p,f}) && \text{soft half-space (smoothstep)}\\
-S_{p,c} &= \textstyle\prod_f W_{p,f} && \text{anisotropic shape factor}\\
-\phi_{p,c} &= S_{p,c} \,/\, \textstyle\sum_k S_{p,k} && \text{fraction of the particle in cell } c
+S_{p,c} &= \prod_f W_{p,f} && \text{anisotropic shape factor}\\
+\phi_{p,c} &= S_{p,c} \,/\, \sum_k S_{p,k} && \text{fraction of the particle in cell } c
 \end{aligned}
 ```
 
