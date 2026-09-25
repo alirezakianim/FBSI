@@ -7,6 +7,7 @@
 //   method for robust Lagrangian-Eulerian coupling", Computer Methods in Applied
 //   Mechanics and Engineering 461 (2026) 119161.
 //   https://doi.org/10.1016/j.cma.2026.119161
+//   If you use this code, please cite this paper.
 //
 // The method in five lines (x_p: particle centre, R_p: particle radius):
 //   d_pf   = n_f . (x_p - x_f)            signed distance to face f (< 0 inside)

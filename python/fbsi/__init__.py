@@ -5,6 +5,8 @@ Reference implementation accompanying
     A. Kianimoqadam, A. J. Schrader, "An anisotropic, Face-Based Soft-Intersection
     method for robust Lagrangian-Eulerian coupling", Computer Methods in Applied
     Mechanics and Engineering 461 (2026) 119161. doi:10.1016/j.cma.2026.119161
+
+If you use this code, please cite this paper.
 """
 
 from .baselines import gaussian_fractions, isotropic_fractions, pcm_fractions

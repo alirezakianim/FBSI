@@ -7,11 +7,14 @@
 [![Tests](https://github.com/alirezakianim/fbsi-volume-fraction/actions/workflows/tests.yml/badge.svg)](https://github.com/alirezakianim/fbsi-volume-fraction/actions/workflows/tests.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-This repository is the reference implementation of the method published in:
+This repository is the reference implementation of a method published in a peer-reviewed journal:
 
-> **A. Kianimoqadam, A. J. Schrader**, *An anisotropic, Face-Based Soft-Intersection method for robust
-> Lagrangian–Eulerian coupling*, **Computer Methods in Applied Mechanics and Engineering 461 (2026) 119161**.
-> [https://doi.org/10.1016/j.cma.2026.119161](https://doi.org/10.1016/j.cma.2026.119161)
+> [!IMPORTANT]
+> **Published paper:** A. Kianimoqadam, A. J. Schrader, *An anisotropic, Face-Based Soft-Intersection
+> method for robust Lagrangian–Eulerian coupling*, **Computer Methods in Applied Mechanics and
+> Engineering 461 (2026) 119161**. [https://doi.org/10.1016/j.cma.2026.119161](https://doi.org/10.1016/j.cma.2026.119161)
+>
+> **If you use FBSI or this code in your work, please cite this paper.** See [How to cite](#how-to-cite).
 
 It is meant for **learning and adopting** the method. It contains short, readable implementations in
 **Python** and **C++**, tests, runnable examples, and a guide for adding FBSI to your own solver.
@@ -170,9 +173,21 @@ and for each particle, its host cell and neighbours. The
 * performance and parallelisation,
 * a checklist of test cases for your own implementation.
 
-## Citing
+## How to cite
 
-If you use FBSI, please cite the paper:
+FBSI is published in *Computer Methods in Applied Mechanics and Engineering*. **If you use the method
+or this code in your work, whether you use it as-is, adapt it, or reimplement it in your own solver,
+please cite the paper.**
+
+### 1. Cite the paper
+
+**Reference**
+
+> A. Kianimoqadam, A. J. Schrader, An anisotropic, Face-Based Soft-Intersection method for robust
+> Lagrangian–Eulerian coupling, *Computer Methods in Applied Mechanics and Engineering* 461 (2026) 119161.
+> https://doi.org/10.1016/j.cma.2026.119161
+
+**BibTeX** (LaTeX users: copy this into your `.bib` file and cite it with `\cite{Kianimoqadam2026FBSI}`)
 
 ```bibtex
 @article{Kianimoqadam2026FBSI,
@@ -187,7 +202,23 @@ If you use FBSI, please cite the paper:
 }
 ```
 
-If you use this code, please also cite the software release (DOI archived on Zenodo):
+**Other formats** (APA, RIS for EndNote, Zotero or Mendeley):
+
+* On this GitHub page, click **"Cite this repository"** in the right-hand sidebar. It gives the paper
+  citation in APA and BibTeX format.
+* In Zotero use *Add Item by Identifier*, or in Mendeley use *Add by DOI*, and paste the DOI
+  `10.1016/j.cma.2026.119161`.
+* The [publisher's page](https://doi.org/10.1016/j.cma.2026.119161) also exports the citation.
+
+**Example sentence** for the methods section of your paper:
+
+> The particle volume was mapped to the fluid cells with the Face-Based Soft-Intersection (FBSI)
+> method [ref].
+
+### 2. Also cite the software (optional)
+
+If you used this code in particular, you can **additionally** cite the archived software release
+(Zenodo DOI). This is in addition to the paper, not instead of it:
 
 ```bibtex
 @software{Kianimoqadam_FBSI_software,
@@ -200,8 +231,6 @@ If you use this code, please also cite the software release (DOI archived on Zen
   url       = {https://doi.org/10.5281/zenodo.XXXXXXX}
 }
 ```
-
-GitHub's **"Cite this repository"** button (from [`CITATION.cff`](CITATION.cff)) exports APA and BibTeX.
 
 ### Related work
 
