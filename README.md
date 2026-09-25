@@ -249,9 +249,10 @@ Released under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
-This material is based upon work supported by the U.S. Department of Energy's Office of Energy
-Efficiency and Renewable Energy (EERE) under the Solar Energy Technology Office (SETO) Award Number
-DE-LC-00L108 led by Sandia National Laboratories. The views expressed here do not necessarily represent
+The FBSI method was developed at the University of Dayton with support from the U.S. Department of Energy's Office
+of Energy Efficiency and Renewable Energy (EERE) under the Solar Energy Technologies Office (SETO) Award Number
+DE-LC-00L108 led by Sandia National Laboratories, as acknowledged in the paper. This reference implementation was
+written independently by A. Kianimoqadam after that appointment. The views expressed here do not necessarily represent
 the views of the U.S. Department of Energy or the United States Government.
 
 ## Authors
