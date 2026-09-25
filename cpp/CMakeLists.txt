@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.14)
-project(fbsi VERSION 1.0.1 LANGUAGES CXX)
+project(fbsi VERSION 1.0.2 LANGUAGES CXX)
 
 # Header-only library: link to fbsi::fbsi or just copy include/fbsi/fbsi.hpp.
 add_library(fbsi INTERFACE)

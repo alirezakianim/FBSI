@@ -15,7 +15,7 @@ from .core import face_weights, fbsi_fractions, shape_factor, solid_volume_fract
 from .meshes import Mesh, hex_mesh, tet_mesh
 from .reference import direct_numerical_fractions
 
-__version__ = "1.0.1"
+__version__ = "1.0.2"
 
 __all__ = [
     "Cell",

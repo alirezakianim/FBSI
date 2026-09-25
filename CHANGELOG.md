@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.2] - 2026-09-25
+
+- Acknowledgment clarified: the DOE award supported the development of the method (as acknowledged
+  in the paper); this reference implementation was written independently afterwards.
+
 ## [1.0.1] - 2026-09-25
 
 - Software DOI added: 10.5281/zenodo.22953280 (all versions).

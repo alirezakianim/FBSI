@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "fbsi"
-version = "1.0.1"
+version = "1.0.2"
 description = "Face-Based Soft-Intersection (FBSI): particle-to-cell volume mapping for Lagrangian-Eulerian (CFD-DEM) coupling"
 license = { text = "MIT" }
 authors = [{ name = "Alireza Kianimoqadam" }]
