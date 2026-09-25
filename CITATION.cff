@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite the article in "preferred-citation".
+  To cite a specific version of the code, use the software DOI archived on Zenodo.
+type: software
+title: "FBSI: Face-Based Soft-Intersection particle-to-cell volume mapping"
+abstract: >-
+  Reference implementation (Python and C++) of the Face-Based Soft-Intersection
+  (FBSI) method for computing the fraction of each particle's volume inside each
+  computational cell in Lagrangian-Eulerian (CFD-DEM) simulations. Each cell is
+  represented as the intersection of soft half-spaces defined by its face normals,
+  giving an anisotropic, tuning-free, volume-conserving and smooth mapping on
+  structured and unstructured meshes.
+authors:
+  - family-names: Kianimoqadam
+    given-names: Alireza
+    orcid: "https://orcid.org/0000-0003-0000-8080"
+    affiliation: "Department of Mechanical and Aerospace Engineering, University of Dayton"
+  - family-names: Schrader
+    given-names: Andrew J.
+    affiliation: "Department of Mechanical and Aerospace Engineering, University of Dayton"
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/alirezakianim/fbsi-volume-fraction"
+keywords:
+  - CFD-DEM
+  - Lagrangian-Eulerian coupling
+  - volume fraction
+  - void fraction
+  - particle-laden flow
+  - multiphase flow
+  - unstructured mesh
+  - anisotropic kernel
+# After the first Zenodo release, add the concept DOI here:
+# doi: 10.5281/zenodo.XXXXXXX
+preferred-citation:
+  type: article
+  title: "An anisotropic, Face-Based Soft-Intersection method for robust Lagrangian–Eulerian coupling"
+  authors:
+    - family-names: Kianimoqadam
+      given-names: Alireza
+      orcid: "https://orcid.org/0000-0003-0000-8080"
+    - family-names: Schrader
+      given-names: Andrew J.
+  journal: "Computer Methods in Applied Mechanics and Engineering"
+  volume: 461
+  start: 119161
+  year: 2026
+  month: 11
+  doi: 10.1016/j.cma.2026.119161

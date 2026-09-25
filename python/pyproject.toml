@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fbsi"
+version = "1.0.0"
+description = "Face-Based Soft-Intersection (FBSI): particle-to-cell volume mapping for Lagrangian-Eulerian (CFD-DEM) coupling"
+license = { text = "MIT" }
+authors = [{ name = "Alireza Kianimoqadam" }]
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.21"]
+keywords = ["CFD-DEM", "Lagrangian-Eulerian", "volume fraction", "void fraction", "multiphase flow", "unstructured mesh"]
+
+[project.optional-dependencies]
+examples = ["matplotlib>=3.5"]
+test = ["pytest>=7"]
+
+[project.urls]
+Paper = "https://doi.org/10.1016/j.cma.2026.119161"
+
+[tool.setuptools]
+packages = ["fbsi"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

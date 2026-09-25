@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.venv/
+venv/
+.pytest_cache/
+
+# C++ / CMake
+build/
+cmake-build-*/
+
+# Output of the examples (figures in docs/images are tracked)
+*.png
+!docs/images/*.png
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/
