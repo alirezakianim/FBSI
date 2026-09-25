@@ -22,7 +22,7 @@ authors:
     affiliation: "Department of Mechanical and Aerospace Engineering, University of Dayton"
 version: 1.0.0
 license: MIT
-repository-code: "https://github.com/alirezakianim/fbsi-volume-fraction"
+repository-code: "https://github.com/alirezakianim/FBSI"
 keywords:
   - CFD-DEM
   - Lagrangian-Eulerian coupling

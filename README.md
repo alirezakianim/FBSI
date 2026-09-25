@@ -4,7 +4,7 @@
 
 [![Paper DOI](https://img.shields.io/badge/Paper-10.1016%2Fj.cma.2026.119161-blue)](https://doi.org/10.1016/j.cma.2026.119161)
 [![Software DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
-[![Tests](https://github.com/alirezakianim/fbsi-volume-fraction/actions/workflows/tests.yml/badge.svg)](https://github.com/alirezakianim/fbsi-volume-fraction/actions/workflows/tests.yml)
+[![Tests](https://github.com/alirezakianim/FBSI/actions/workflows/tests.yml/badge.svg)](https://github.com/alirezakianim/FBSI/actions/workflows/tests.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 This repository is the reference implementation of a method published in a peer-reviewed journal:
@@ -82,7 +82,7 @@ and the isotropic kernels spread the volume too widely:
 ## Repository layout
 
 ```text
-fbsi-volume-fraction/
+FBSI/
 ├── python/
 │   ├── fbsi/                  Python package (numpy only)
 │   │   ├── core.py            ← the method: face_weights, shape_factor, fbsi_fractions
@@ -109,8 +109,8 @@ fbsi-volume-fraction/
 Requires Python ≥ 3.9 and numpy (matplotlib is optional, for plots).
 
 ```bash
-git clone https://github.com/alirezakianim/fbsi-volume-fraction.git
-cd fbsi-volume-fraction
+git clone https://github.com/alirezakianim/FBSI.git
+cd FBSI
 pip install -e "python[examples,test]"
 
 python python/examples/01_quickstart.py              # the method on tiny examples
