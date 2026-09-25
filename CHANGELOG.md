@@ -1,5 +1,11 @@
 # Changelog
 
+## [1.0.1] - 2026-09-25
+
+- Software DOI added: 10.5281/zenodo.22953280 (all versions).
+- Author metadata corrected in `CITATION.cff` and `.zenodo.json`; author roles listed in the README.
+- Citation instructions for the published paper; math rendering fixed on GitHub.
+
 ## [1.0.0] - 2026
 
 First public release, accompanying Kianimoqadam & Schrader, CMAME 461 (2026) 119161.

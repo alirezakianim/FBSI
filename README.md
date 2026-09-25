@@ -3,7 +3,7 @@
 **Accurate, smooth, tuning-free particle-to-cell volume mapping for Lagrangian–Eulerian (CFD–DEM) coupling on any mesh.**
 
 [![Paper DOI](https://img.shields.io/badge/Paper-10.1016%2Fj.cma.2026.119161-blue)](https://doi.org/10.1016/j.cma.2026.119161)
-[![Software DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![Software DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22953280.svg)](https://doi.org/10.5281/zenodo.22953280)
 [![Tests](https://github.com/alirezakianim/FBSI/actions/workflows/tests.yml/badge.svg)](https://github.com/alirezakianim/FBSI/actions/workflows/tests.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
@@ -218,17 +218,17 @@ please cite the paper.**
 ### 2. Also cite the software (optional)
 
 If you used this code in particular, you can **additionally** cite the archived software release
-(Zenodo DOI). This is in addition to the paper, not instead of it:
+(Zenodo DOI [10.5281/zenodo.22953280](https://doi.org/10.5281/zenodo.22953280), which always
+resolves to the latest version). This is in addition to the paper, not instead of it:
 
 ```bibtex
 @software{Kianimoqadam_FBSI_software,
   author    = {Kianimoqadam, Alireza and Schrader, Andrew J.},
   title     = {{FBSI}: Face-Based Soft-Intersection particle-to-cell volume mapping},
   publisher = {Zenodo},
-  version   = {1.0.0},
   year      = {2026},
-  doi       = {10.5281/zenodo.XXXXXXX},
-  url       = {https://doi.org/10.5281/zenodo.XXXXXXX}
+  doi       = {10.5281/zenodo.22953280},
+  url       = {https://doi.org/10.5281/zenodo.22953280}
 }
 ```
 
@@ -256,5 +256,5 @@ the views of the U.S. Department of Energy or the United States Government.
 
 ## Authors
 
-- **Alireza Kianimoqadam**, [ORCID 0000-0003-0000-8080](https://orcid.org/0000-0003-0000-8080)
-- **Andrew J. Schrader**, Department of Mechanical and Aerospace Engineering, University of Dayton
+- **Alireza Kianimoqadam**: method and software. [ORCID 0000-0003-0000-8080](https://orcid.org/0000-0003-0000-8080)
+- **Andrew J. Schrader**: method co-author. Department of Mechanical and Aerospace Engineering, University of Dayton
