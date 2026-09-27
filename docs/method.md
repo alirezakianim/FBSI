@@ -23,7 +23,7 @@ $p$ that lies in cell $c$**. Everything comes down to computing $\phi_{p,c}$ wel
 |---|---|---|
 | Direct numerical (DN) | Voxelise the particle and test each voxel against the cell | Accurate, but cost grows as $N_V^3$ per particle |
 | Point-Centroid Method (PCM) | Whole particle goes to the cell containing its centre | Very cheap, but $\phi$ jumps between 0 and 1 |
-| Isotropic kernels (Gaussian, polynomial, GIM) | Weight depends only on the distance between the particle and the cell **centroid** | Smooth, but every cell is treated as a sphere; errors on stretched, skewed or unstructured cells, and a smoothing length must be tuned |
+| Isotropic kernels (Gaussian, polynomial, GIM) | Weight depends only on the distance between the particle and the cell **centroid** | Smooth, but every cell is treated as a sphere; errors on stretched or skewed cells, and a smoothing length must be tuned |
 | **FBSI** | Weight is built from the **faces** of the cell | Smooth, follows the real cell shape, nothing to tune, cost similar to an isotropic kernel |
 
 ## 2. A cell is an intersection of half-spaces

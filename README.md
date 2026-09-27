@@ -33,7 +33,7 @@ so errors in it go straight into the drag forces and the stability of the simula
   fraction jumps as particles cross faces.
 * **Isotropic kernels** (Gaussian, polynomial, GIM) smooth the volume using only the distance to cell
   centroids, so they treat every cell as a sphere. They lose accuracy on stretched boundary-layer cells
-  and skewed cells, GIM cannot be used on tetrahedral cells, and the smoothing length or coefficient
+  and skewed cells, GIM is not designed for tetrahedral cells, and the smoothing length or coefficient
   has to be tuned.
 * **FBSI** represents each cell as the intersection of *soft half-spaces* built from its **faces**.
   The weight follows the true cell shape, has **no tuning parameter**, conserves volume exactly, and
